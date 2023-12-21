@@ -1,0 +1,7 @@
+echo "#diabetis" >> README.md 
+git init 
+git add README.md 
+git commit -m gerd" 
+git branch -M main 
+git remote add origin https://github.com/neusa22/diabetis.git
+ git push - teste
