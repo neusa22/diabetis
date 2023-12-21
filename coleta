@@ -1,0 +1,17 @@
+nome : Fechar problemas inativos
+sobre :
+  agendar :
+    -cron : " 30 1 * * * "
+empregos :
+  questões próximas :
+    executado : ubuntu-mais recente
+    permissões :
+      questões : escrever
+      solicitações pull : escrever
+    passos :
+      - usos : ações/stale@v5
+        com :
+          operações por execução : 100
+          dias antes da emissão obsoleta : 30
+          dias antes do fechamento da edição : 14
+          rótulo de problema obsoleto : " obsoleto "
